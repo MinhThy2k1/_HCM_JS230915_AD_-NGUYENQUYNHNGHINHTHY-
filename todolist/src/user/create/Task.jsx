@@ -101,7 +101,7 @@ export default function Task() {
                             content: "Bạn chắc chắn muốn đăng xuất!",
                             onOk: () => {
                                 localStorage.removeItem("userRole")
-                                window.location.href = 'authen'
+                                window.location.href = '*'
                             }
                         })
                     }}  >go to login</button>
